@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "marketing-sm"
+version = "0.1.0"
+description = "A project for generating and managing social media content."
+authors = ["João Castilho <castilho.joao96@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.3.0"
+google-cloud-aiplatform = "^1.58.0"
+gradio = "^4.37.2"
+gradio-calendar = "^0.0.4"
+psycopg2-binary = "^2.9.9"
+chromadb = "^0.5.5"
+pydantic-settings = "^2.5.2"
+langchain-community = "^0.3.0"
+apify-client = "^1.8.1"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+pytest = "^7.4.0"
+flake8 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
