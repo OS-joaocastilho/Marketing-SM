@@ -93,7 +93,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 We would like to extend our sincere gratitude to the following:
 
-### [LangChain](https://github.com/langchain/langchain)
+### [LangChain](https://python.langchain.com/)
 
 For providing the core components of our application, including prompt templates and output parsing. 
 LangChain is an open-source library that simplifies the development of applications using language models.
@@ -108,5 +108,4 @@ Pollinations AI allows us to create visually appealing content for Instagram pos
 
 We also appreciate the contributions and feedback from the open-source community. Your support and insights help improve the project and make it more valuable for everyone.
 
-If you have any suggestions or would like to contribute to the project, please check out our [GitHub repository](https://github.com/yourusername/marketing-sm) for more information.
 
