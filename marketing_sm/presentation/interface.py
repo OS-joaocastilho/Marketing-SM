@@ -108,8 +108,11 @@ class Interface:
             url_options.update(business.instagram_urls)
             description_options.update(business.descriptions)
             colors = business.colors
+            if not colors:
+                colors = ["#000000"]
             number_colors = len([color for color in colors if color])
-            color_updates = (self._gr.update(value=color) for color in colors)
+            color_updates = ([self._gr.update(value=color) for color in colors] +
+                             [self._gr.update(visible=False) for _ in range(MAX_COLORS-number_colors)])
 
         return (
             self._gr.update(visible=new_business, value=""),
